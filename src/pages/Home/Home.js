@@ -11,7 +11,7 @@ const Home = () => {
     const { data: productsCategory = [], isLoading } = useQuery({
         queryKey: ['products'],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/category')
+            const res = await fetch('https://myknot-official-sever.vercel.app/category')
             const data = await res.json();
             return data;
         }

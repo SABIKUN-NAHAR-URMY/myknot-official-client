@@ -39,7 +39,7 @@ const SignUp = () => {
 
     const saveUser = (name, email, value) => {
         const user = { name, email, value };
-        fetch('http://localhost:5000/users', {
+        fetch('https://myknot-official-sever.vercel.app/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
