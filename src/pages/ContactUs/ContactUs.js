@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import contactus from '../../images/contactus.jpg';
+import contactus from '../../images/contactus.png';
 import { toast } from 'react-hot-toast';
 import emailImg from '../../images/email.png';
 import phoneImg from '../../images/phone.png';

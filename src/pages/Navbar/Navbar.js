@@ -22,7 +22,7 @@ const Navbar = () => {
                 :
                 <>
                     <li className='text-xl font-semibold'><Link to='/login'>Login</Link></li>
-                    <li className='text-xl font-semibold'><Link to='/signup'>Signup</Link></li>
+                    <li className='text-xl font-semibold'><Link to='/signup'>Sign Up</Link></li>
                 </>
         }
     </React.Fragment>
@@ -40,8 +40,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    {/* <img className='w-10' src={logo} alt="" /> */}
-                    <Link className="btn btn-ghost normal-case text-xl">myknot</Link>
+                    <Link className="btn btn-ghost text-xl normal-case font-bold" to={'/'}>MyKnot</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">

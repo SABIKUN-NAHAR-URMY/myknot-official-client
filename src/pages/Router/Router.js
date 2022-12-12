@@ -2,7 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import AboutUs from "../AboutUs/AboutUs";
 import ContactUs from "../ContactUs/ContactUs";
 import Home from "../Home/Home";
+import Login from "../Login/Login";
 import Main from "../Main/Main";
+import SignUp from "../SignUp/SignUp";
 
 export const router = createBrowserRouter([
     {
@@ -27,14 +29,14 @@ export const router = createBrowserRouter([
                 path: '/contactus',
                 element: <ContactUs></ContactUs>
             },
-    //         {
-    //             path: '/login',
-    //             element: <Login></Login>
-    //         },
-    //         {
-    //             path: '/signup',
-    //             element: <Signup></Signup>
-    //         }
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/signup',
+                element: <SignUp></SignUp>
+            }
     //     ]
     // },
     // {
