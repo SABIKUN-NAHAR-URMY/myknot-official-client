@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCSiRrWTgtdJVMNuQUDf26dAh5T5hZc3-w",
-  authDomain: "myknot-official-58b54.firebaseapp.com",
-  projectId: "myknot-official-58b54",
-  storageBucket: "myknot-official-58b54.appspot.com",
-  messagingSenderId: "381065865451",
-  appId: "1:381065865451:web:bea038354bb04bee4376ae"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId
 };
 
 // Initialize Firebase
